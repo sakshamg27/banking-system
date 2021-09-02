@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#main
+{
+	text-align: center;
+background-color: rgb(235, 235, 245);
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: plum!important;
+    color: black !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: purple!important;
+} 

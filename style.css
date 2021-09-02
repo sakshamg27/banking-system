@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("cover.jpg");
+  font-family: sans-serif;
+}
+#nav-bar {
+  background-color: #e91ae9ea;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  float: right;
+}
+.nav-link:hover {
+  background-color: rgb(92, 23, 253);
+}
+.navbar {
+  padding: 0 !important;
+}
+navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: rgb(119, 231, 14) !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars {
+  color: #0280a7;
+  font-size: 30p !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+/*---banner section--*/
+#main {
+  text-align: center;
+  color: rgb(134, 7, 7);
+  padding-top: 10%;
+}
+.container h1 img {
+  padding-bottom: 10px;
+}
+
+/*---service section---*/
+#features1 {
+  background-color: rgb(202, 157, 7);
+  text-align: center;
+  padding: 10% 15%;
+}
+#features {
+  text-align: center;
+  padding: 10% 15%;
+  background-image: url("pexels-dom-j-45111.jpg");
+}
+.features1 h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.features h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.title::before {
+  content: "";
+  background: rgb(114, 5, 114);
+  height: 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(63px);
+}
+.title::after {
+  content: "";
+  background: rgb(255, 9, 255);
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translatey(8px);
+}
+#features .btn-primary {
+  box-shadow: none;
+  padding: 10px 25px;
+  border: none;
+  align-content: center;
+  background-image: linear-gradient(to right, pink, rgb(11, 219, 46));
+}
+
+#action {
+  background-color: rgb(15, 202, 31);
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  color: rgb(223, 4, 4);
+}
+.main {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 10px 0px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer {
+  background-color: rgb(221, 128, 6);
+  color: black;
+  padding: 4% 25%;
+  text-align: center;
+}
